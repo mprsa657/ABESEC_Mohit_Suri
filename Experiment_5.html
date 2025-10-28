@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Hotel Room Booking Form</title> 
+</head> 
+<body> 
+<form>
+<h1 align="center">Student Registration Form</h1>
+<hr>
+<form action="server.html" method="post" align="center">
+
+<label for="fullname">Full Name:</label>
+<input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+<br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter valid email address" required>
+<br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" placeholder="Enter password" required>
+<br><br>
+
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="Male"> Male
+<input type="radio" id="female" name="gender" value="Female"> Female
+<input type="radio" id="other" name="gender" value="Other"> Other
+<br><br>
+
+<label for="course">Course:</label>
+<select id="course" name="course">
+<option value="">-- Select Course --</option>
+<option value="bca">BCA</option>
+<option value="bba">BBA</option>
+<option value="btech">B.Tech</option>
+<option value="ba">BA</option>
+<option value="bcom">B.Com</option>
+</select>
+<br><br>
+
+<label for="contact">Contact No:</label>
+<input type="tel" id="contact" name="contact" placeholder="Enter phone number" required>
+<br><br>
+
+<label for="address">Address:</label><br>
+<textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your address"></textarea>
+<br><br>
+
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+
+</form>
+<hr>
+<center>&copy; 2025 Student Registration Portal</center>
+    </form> 
+ 
+</body> 
+</html>
