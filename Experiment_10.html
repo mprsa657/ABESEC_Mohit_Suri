@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiment 10</title>
     <style>
-        .header {
+    .header {
     display: grid;
-    grid-template-columns: 2fr 7fr 1fr 0.7fr;
+    grid-template-columns: 2fr 7fr 1fr 1fr;
     background-color: black;
     color: white;
     padding: 15px;
@@ -18,7 +18,7 @@
     grid-column-start: 1;
     grid-column-end: 1;
     font-weight: bolder;
-    font-size:x-large;
+    font-size:large;
 }
 .nav {
     grid-column-start: 2;
@@ -40,9 +40,6 @@ a {
     color: white;
     margin: 10px;
 }
-a:hover {
-    text-shadow: 5px 0px 10px white;
-}
 button {
     background: none;
     margin: 0px;
@@ -52,7 +49,7 @@ button {
 }
 @media only screen and (max-width:600px) {
     .header {
-        grid-template-columns: 1fr 6fr 0.7fr;
+        grid-template-columns: 1fr 6fr 1fr;
         grid-template-rows: 1fr;
     }
     .brand {
